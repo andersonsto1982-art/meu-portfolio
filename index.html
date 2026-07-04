@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson | Desenvolvedor Web & Soluções Digitais</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO & NAVEGAÇÃO -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">&lt;Anderson /&gt;</a>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#portfolio">Projetos</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contato" class="btn-nav">Contato</a>
+            </nav>
+        </div>
+        <button id="theme-toggle" class="btn-theme">🌓</button>
+    </header>
+
+    <!-- SEÇÃO HERO (APRESENTAÇÃO) -->
+    <section id="sobre" class="hero hidden-element">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Prazer, sou Anderson. <br><span class="highlight">Desenvolvedor Web</span> focado em criar soluções
+                    que convertem acessos em resultados.</h1>
+                <p>Eu não crio apenas sites; eu construo ferramentas de negócios completas. Minha especialidade é unir
+                    um design funcional à robustez de uma infraestrutura técnica sólida, cuidando de todo o ecossistema
+                    do seu projeto: do servidor ao clique final do seu cliente.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Ver Meus Projetos</a>
+                    <a href="#contato" class="btn btn-secondary">Vamos Conversar!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PORTFÓLIO (CASES DE SUCESSO) -->
+    <section id="portfolio" class="portfolio hidden-element">
+        <div class="container">
+            <h2>Casos de <span class="highlight">Sucesso</span></h2>
+            <p class="subtitle">Alguns dos problemas reais de negócios que resolvi recentemente.</p>
+
+            <div class="projects-grid">
+                <!-- Case 1 -->
+                <div class="project-card">
+                    <div class="project-img" style="background-image: url('img/mockup-agendamento.jpg');"></div>
+                    <div class="project-info">
+                        <h3>Sistema de Agendamento Inteligente</h3>
+                        <p>Plataforma automatizada desenvolvida para o estúdio de beleza <em>Beaulty Studio</em>.
+                            Integra agendamento fluído com disparos automatizados de notificações e confirmações via
+                            WhatsApp para a gestão.</p>
+                        <div class="tags">
+                            <span>WordPress</span>
+                            <span>Automação WhatsApp</span>
+                            <span>UI/UX Pink Theme</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 2 -->
+                <div class="project-card hidden-element">
+                    <div class="project-img" style="background-image: url('img/mockup-loja.jpg');"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce de Alta Performance</h3>
+                        <p>Desenvolvimento ponta a ponta de uma loja virtual de moda feminina. Arquitetura planejada
+                            para carregamento rápido, segurança SSL rigorosa e checkout de pagamento transparente.</p>
+                        <div class="tags">
+                            <span>WooCommerce</span>
+                            <span>Otimização MySQL</span>
+                            <span>Gateways de Pagamento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO HABILIDADES TÉCNICAS (ATUALIZADA) -->
+    <section id="skills" class="skills hidden-element">
+        <div class="container">
+            <h2>Minha <span class="highlight">Stack</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>💻 Front-End</h3>
+                    <ul>
+                        <li>HTML5 & CSS3 Avançado</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>⚙️ Back-End & Banco de Dados</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MySQL (Modelagem e Otimização)</li>
+                        <li>Construção de APIs RESTful</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>🐧 Infraestrutura & DevOps</h3>
+                    <ul>
+                        <li>Linux (Ubuntu Server)</li>
+                        <li>Servidores Apache / Nginx</li>
+                        <li>Gerenciamento de VPS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contato" class="contact hidden-element">
+        <div class="container">
+            <h2>Vamos tirar seu projeto do papel?</h2>
+            <p class="subtitle">Preencha os campos abaixo para iniciarmos uma conversa direto no WhatsApp.</p>
+
+            <div class="form-container">
+                <form id="form-whatsapp">
+                    <div class="form-group">
+                        <input type="text" id="nome" required placeholder=" ">
+                        <label for="nome">Seu Nome</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Seu E-mail</label>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="mensagem" required placeholder=" " rows="5"></textarea>
+                        <label for="mensagem">Fale sobre o seu projeto...</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <span>Enviar para o WhatsApp</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Anderson. Feito com código puro (HTML/CSS) sob ambiente Linux. 🐧</p>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+:root {
+    --bg-dark: #121214;
+    --bg-card: #1a1a1e;
+    --text-primary: #ffffff;
+    --text-secondary: #a4a4a8;
+    --accent: #026292; /* Azul clássico WordPress */
+    --accent-glow: #00cdff;
+    --success: #25d366; /* Verde WhatsApp */
+    
+}
