@@ -23,7 +23,7 @@ document.getElementById('form-whatsapp').addEventListener('submit', function(eve
     const mensagem = document.getElementById('mensagem').value;
 
     // 2. Define o SEU número de WhatsApp (com DDD, apenas números)
-    const meuNumero = "5581997087849"; 
+    const meuNumero = "5500000000000"; 
 
     // 3. Monta o texto formatado (usando %0A para quebrar linhas)
     const textoFormatado = `Olá! Vi seu portfólio e gostaria de fazer um orçamento:%0A%0A` +
