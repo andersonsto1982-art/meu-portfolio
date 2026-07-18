@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anderson | Desenvolvedor Web & Soluções Digitais</title>
     <link rel="stylesheet" href="CSS/style.css">
+    
 </head>
 
 <body>
@@ -50,16 +51,28 @@
             <div class="projects-grid">
                 <!-- Case 1 -->
                 <div class="project-card">
-                    <div class="project-img" style="background-image: url('img/mockup-agendamento.jpg');"></div>
+                    <div class="project-img" style="background-image: url('img/img1.png');"></div>
                     <div class="project-info">
                         <h3>Sistema de Agendamento Inteligente</h3>
                         <p>Plataforma automatizada desenvolvida para o estúdio de beleza <em>Beaulty Studio</em>.
                             Integra agendamento fluído com disparos automatizados de notificações e confirmações via
                             WhatsApp para a gestão.</p>
                         <div class="tags">
-                            <span>WordPress</span>
+                            <span>HTML/CSS/JS</span>
                             <span>Automação WhatsApp</span>
                             <span>UI/UX Pink Theme</span>
+                            <span>Banco de Dados MySQL</span>
+                            <span>Segurança SSL</span>
+                            <span>Hospedagem VPS</span>
+                        </div>
+                        <!-- BOTÕES DE AÇÃO - CASE 1 -->
+                        <div class="project-actions">
+                            <button class="btn-project btn-gallery btn-open-gallery" data-case="case1">
+                                🖼️ Ver Galeria
+                            </button>
+                            <a href="https://seu-link-do-site1.com" target="_blank" rel="noopener noreferrer" class="btn-project btn-site">
+                                🌐 Visitar Site
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -76,13 +89,22 @@
                             <span>Otimização MySQL</span>
                             <span>Gateways de Pagamento</span>
                         </div>
+                        <!-- BOTÕES DE AÇÃO - CASE 2 -->
+                        <div class="project-actions">
+                            <button class="btn-project btn-gallery btn-open-gallery" data-case="case2">
+                                🖼️ Ver Galeria
+                            </button>
+                            <a href="https://seu-link-do-site2.com" target="_blank" rel="noopener noreferrer" class="btn-project btn-site">
+                                🌐 Visitar Site
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SEÇÃO HABILIDADES TÉCNICAS (ATUALIZADA) -->
+    <!-- SEÇÃO HABILIDADES TÉCNICAS -->
     <section id="skills" class="skills hidden-element">
         <div class="container">
             <h2>Minha <span class="highlight">Stack</span></h2>
@@ -156,10 +178,23 @@
     <!-- FOOTER -->
     <footer>
         <div class="container">
+<<<<<<< HEAD
             <p>&copy; 2026 ♾️infinityDev. Feito com código puro (HTML/CSS) sob ambiente Linux. 🐧</p>
+=======
+            <p>&copy; 2026 Anderson. Feito com código puro (HTML/CSS/JS) sob ambiente Linux. 🐧</p>
+>>>>>>> c5f1461 (Atualização do meu portfolio)
         </div>
     </footer>
 
+    <!-- ESTRUTURA DA JANELA MODAL (GALERIA) -->
+    <div id="gallery-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <button class="modal-btn modal-btn-prev" id="modal-prev">&#10094;</button>
+            <img src="" alt="Foto do projeto" class="modal-img" id="modal-img">
+            <button class="modal-btn modal-btn-next" id="modal-next">&#10095;</button>
+        </div>
+    </div>
     <script src="JS/script.js"></script>
 
 </body>
